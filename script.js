@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changePageTitle() {
-        elementHeader.textContent="Haga clic para editar el texto."
-        elementHeader.contentEditable=true;
+        elementHeader.textContent = "Haga clic para editar el texto."
+        elementHeader.contentEditable = true;
     }
 
     function changeSubtitleFormat() {
-        elementDescriptionSubtitle.style.color="#9A3F3F";
-        elementDescriptionText.style.fontFamily="verdana";
+        elementDescriptionSubtitle.style.color = "#9A3F3F";
+        elementDescriptionText.style.fontFamily = "verdana";
     }
 
     function addImage() {
